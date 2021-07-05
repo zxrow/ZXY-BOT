@@ -1,4 +1,4 @@
-# Zbin-Wabot
+# ZXY-Wabot
 
 Bot Biasa Dengan Base Mhankbarbar Dan Saya Modif Agar Sesuai Selera Saya Pribadi
 
