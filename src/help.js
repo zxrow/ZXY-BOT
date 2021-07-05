@@ -132,6 +132,7 @@ Tanda Kurung [ ] Hiraukan Contoh :
 
 _Nemuin *Bug🐞?* Ketik *${prefix}bugreport* Untuk Melaporkan Bug!_
 _Jika ingin save nomor *Owner✨?* Ketik *${prefix}creator* Untuk Save Nomor!_
+_Github Sc_ ? : https://github.com/Z-zxQ/ZXY-BOT/
 ⊷⊷⊷⊷⊷⋙᪥⋘⊶⊶⊶⊶⊶
 ⚠️JANGAN SPAM BOT INI !!..
 🏠TETAP DI RUMAH AJA DAN LAKUKAN 3M
