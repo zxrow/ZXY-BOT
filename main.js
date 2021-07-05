@@ -2790,7 +2790,7 @@ case 'tiktok':
 if (args.length < 1) return reply('Urlnya mana um?')
 if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply('URL NYA TIDAK VALID KAK')
 url = args[0]
-url =`http://api.lolhuman.xyz/api/tiktok?apikey=8fcd809442f5d4ecb1def21b&url=https://vt.tiktok.com/ZSwWCk5o/${url}`
+url =`http://api.lolhuman.xyz/api/tiktok?apikey=Apikey&url=https://vt.tiktok.com/ZSwWCk5o/${url}`
 result = await fetchJson(url)
 buffer = await getBuffer(result.result.link)
 client.sendMessage(from, buffer, video, { quoted: msg })
@@ -2837,7 +2837,7 @@ client.sendMessage(from, attp2, sticker, {quoted: msg})
 break
 case 'ttp2':
 if (args.length < 1) return reply(`_Teksnya Mana Boss_\n*Contoh ${prefix}ttp2 Wajahku Ganteng*`)
-ttp2 = await getBuffer(`https://api.lolhuman.xyz/api/ttp2?apikey=8fcd809442f5d4ecb1def21b&text=${body.slice(6)}`)
+ttp2 = await getBuffer(`https://api.lolhuman.xyz/api/ttp2?apikey=Apikey&text=${body.slice(6)}`)
 client.sendMessage(from, ttp2, sticker, {quoted: msg})
 break
 case 'markzug':
@@ -2971,7 +2971,7 @@ reply('Reply Imagenya!!')
 break
 case 'asupan':
 reply(mess.wait)
-get_result = await fetchJson(`http://api.lolhuman.xyz/api/asupan?apikey=8fcd809442f5d4ecb1def21b`)
+get_result = await fetchJson(`http://api.lolhuman.xyz/api/asupan?apikey=Apikey`)
 buffer = await getBuffer(get_result.result)
 client.sendMessage(from, buffer, video, { quoted: msg, mimetype: Mimetype.mp4, filename: "asupan.mp4" , caption: 'Follow _zxagung'})
 break
