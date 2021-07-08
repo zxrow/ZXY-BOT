@@ -1,11 +1,17 @@
 const {
     WAConnection,
-    MessageType,
-    Presence,
-    Mimetype,
-    GroupSettingChange,
-    mentionedJid,
-    processTime
+   MessageType,
+   Presence,
+   MessageOptions,
+   Mimetype,
+   WALocationMessage,
+   WA_MESSAGE_STUB_TYPES,
+   ReconnectMode,
+   ProxyAgent,
+   GroupSettingChange,
+   waChatKey,
+   mentionedJid,
+   processTime,
 } = require('@adiwajshing/baileys')
 
 const { 
