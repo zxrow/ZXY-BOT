@@ -1,11 +1,11 @@
 const help = (prefix, copid, tanggal, jams, botname) => {
 	return `「  *${botname}*  」
 
-*⦿ Bot Prefix :* ${prefix} 
-*⦿ Creator :* MhankBarBar
-*⦿ Recode By :* @Zxagung
-*⦿ Today :* ${tanggal}
-*⦿ Jam :* ${jams}
+*⦿ Bot Prefix :* ${prefix}🎊 
+*⦿ Creator :* MhankBarBar🔎
+*⦿ Recode By :* @Zxagung🔎
+*⦿ Today :* ${tanggal}⚠️
+*⦿ Jam :* ${jams}⚠️
 
 ❒「  *Kasus Covid-19 Indonesia*  」
 ├ *Terinfeksi :* ${copid[0].kasus}
@@ -45,7 +45,6 @@ const help = (prefix, copid, tanggal, jams, botname) => {
 ├ *${prefix}tovideo*
 ├ *${prefix}toimg*
 ├ *${prefix}attp [teks]*
-├ *${prefix}ttp2 [teks]*
 ├ *${prefix}wasted*
 ├ *${prefix}triggered*
 └ *${prefix}tts* [Text]
@@ -63,21 +62,31 @@ const help = (prefix, copid, tanggal, jams, botname) => {
 └ *${prefix}joox* [Query]
 
 ❑ *New Vitur*
-├ *${prefix}asupan*
 ├ *${prefix}loli*
 ├ *${prefix}pictlolicon*
 ├ *${prefix}anime*
 ├ *${prefix}randomanime*
+├ *${prefix}randomanimev2*
 ├ *${prefix}waifukawai*
 ├ *${prefix}markzug*
 ├ *${prefix}donghoua*
 ├ *${prefix}randomsemok*
+├ *${prefix}blowjob*
 └ *${prefix}neko*
 
 ❑ *FunMenu*
 ├ *${prefix}tebakgambar*
 ├ *${prefix}caklontong*
 ├ *${prefix}jadian*
+├ *${prefix}dare*
+├ *${prefix}truth*
+├ *${prefix}bisakah*
+├ *${prefix}kapankah*
+├ *${prefix}apakah*
+├ *${prefix}bagaimanakah*
+├ *${prefix}gaycek*
+├ *${prefix}sangecek*
+├ *${prefix}hobby*
 └ *${prefix}speed*
 
 ❑ *soundloliMenu*
@@ -121,9 +130,6 @@ const help = (prefix, copid, tanggal, jams, botname) => {
 ├ *${prefix}google* [Query]
 ├ *${prefix}wiki* [Query]
 ├ *${prefix}quotes* [Query]
-├ *${prefix}quotes2*
-├ *${prefix}quotesnime*
-├ *${prefix}pantun*
 ├ *${prefix}preview* teks|ukuran 
 └ *${prefix}ocr*
 ⊷⊷⊷⊷⊷⋙᪥⋘⊶⊶⊶⊶⊶
@@ -132,7 +138,7 @@ Tanda Kurung [ ] Hiraukan Contoh :
 
 _Nemuin *Bug🐞?* Ketik *${prefix}bugreport* Untuk Melaporkan Bug!_
 _Jika ingin save nomor *Owner✨?* Ketik *${prefix}creator* Untuk Save Nomor!_
-_Github Sc_ ? : https://github.com/Z-zxQ/ZXY-BOT/
+_Follow Github_ : https://github.com/z-zxq
 ⊷⊷⊷⊷⊷⋙᪥⋘⊶⊶⊶⊶⊶
 ⚠️JANGAN SPAM BOT INI !!..
 🏠TETAP DI RUMAH AJA DAN LAKUKAN 3M
